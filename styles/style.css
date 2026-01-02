@@ -24,20 +24,20 @@
 }
 
 .nav__logo {
-  width: 60px; /* corregido según el brief */
-  height: 60px; /* corregido según el brief */
+  width: 57px; /* valor original del brief */
+  height: 45px; /* valor original del brief */
 }
 
 .nav__links {
-  list-style-type: none; /* corregido */
-  margin: 0; /* ajustado según brief */
+  list-style-type: none; /* valor original del brief */
+  margin: 8px 0 0; /* valor original del brief */
   padding: 0;
   display: flex;
   column-gap: 20px;
   align-items: center;
 }
 
-.header__link {
+.nav__link {
   color: #000000;
   text-decoration: none;
   font-weight: bold;
@@ -50,7 +50,7 @@
 }
 
 .header__text-block {
-  margin-top: 60px; /* corregido según el brief */
+  margin-top: 40px; /* valor original del brief */
 }
 
 .header__title {
@@ -58,7 +58,7 @@
   font-size: 62px;
   line-height: 76px;
   font-weight: 500;
-  margin: 0;
+  margin: 0; /* valor original del brief */
 }
 
 .header__description {
