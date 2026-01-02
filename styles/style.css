@@ -24,20 +24,20 @@
 }
 
 .nav__logo {
-  width: 57px; /* según el brief original */
-  height: 45px; /* según el brief original */
+  width: 57px; /* valor del brief original */
+  height: 45px; /* valor del brief original */
 }
 
 .nav__links {
-  list-style-type: none; /* según el brief */
-  margin: 8px 0 0; /* según el brief */
+  list-style-type: none; /* según brief */
+  margin: 8px 0 0; /* según brief */
   padding: 0;
   display: flex;
   column-gap: 20px;
   align-items: center;
 }
 
-.nav__link {
+.header__link {
   color: #000000;
   text-decoration: none;
   font-weight: bold;
@@ -50,7 +50,7 @@
 }
 
 .header__text-block {
-  margin-top: 40px; /* según el brief */
+  margin-top: 40px; /* según brief */
 }
 
 .header__title {
@@ -58,7 +58,8 @@
   font-size: 62px;
   line-height: 76px;
   font-weight: 500;
-  margin: 0; /* según el brief */
+  margin-top: 0; /* según brief */
+  margin-bottom: 0;
 }
 
 .header__description {
@@ -151,4 +152,4 @@
   font-size: 14px;
   line-height: 20px;
   color: #838383;
-}i
+}
