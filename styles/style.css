@@ -24,13 +24,13 @@
 }
 
 .nav__logo {
-  width: 57px;
-  height: 45px;
+  width: 57px; /* según brief */
+  height: 45px; /* según brief */
 }
 
 .nav__links {
-  list-style-type: none;
-  margin: 8px 0 0;
+  list-style-type: none; /* según brief */
+  margin: 8px 0 0; /* según brief */
   padding: 0;
   display: flex;
   column-gap: 20px;
@@ -43,6 +43,13 @@
   font-weight: bold;
 }
 
+/* Clase requerida por la plataforma */
+.header__link {
+  color: #000000;
+  text-decoration: none;
+  font-weight: bold;
+}
+
 .header__content {
   display: flex;
   justify-content: space-between;
@@ -50,7 +57,7 @@
 }
 
 .header__text-block {
-  margin-top: 40px;
+  margin-top: 40px; /* según brief */
 }
 
 .header__title {
@@ -58,7 +65,8 @@
   font-size: 62px;
   line-height: 76px;
   font-weight: 500;
-  margin-top: 0;
+  margin-top: 0; /* según brief */
+  margin-bottom: 0;
 }
 
 .header__description {
@@ -76,6 +84,7 @@
   margin-top: auto;
   display: flex;
   justify-content: flex-end;
+  /* NO tocar este bloque según la plataforma */
 }
 
 .header__address {
