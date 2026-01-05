@@ -103,6 +103,7 @@
 .staff__title {
   text-align: center;
   font-size: 44px;
+  font-weight: 400px;
   line-height: 52px;
   margin: 0 0 24px;
   color: #ffffff;
@@ -120,7 +121,7 @@
   max-width: 760px;
   margin: 68px auto 0;
   padding: 0;
-  list-style: none;
+  list-style-type: none;
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
@@ -156,7 +157,7 @@
 }
 
 .card__footer {
-  margin-top: auto;
+  margin: 0;
   font-size: 14px;
   line-height: 20px;
   color: #838383;
