@@ -24,13 +24,13 @@
 }
 
 .nav__logo {
-  width: 57px; /* según brief */
-  height: 45px; /* según brief */
+  width: 58px;
+  height: 80px;
 }
 
 .nav__links {
-  list-style-type: none; /* según brief */
-  margin: 8px 0 0; /* según brief */
+  list-style-type: none;
+  margin: 8px 0 0;
   padding: 0;
   display: flex;
   column-gap: 20px;
@@ -43,7 +43,6 @@
   font-weight: bold;
 }
 
-/* Clase requerida por la plataforma */
 .header__link {
   color: #000000;
   text-decoration: none;
@@ -57,15 +56,14 @@
 }
 
 .header__text-block {
-  margin-top: 40px; /* según brief */
+  margin-top: 40px;
 }
-
 .header__title {
   max-width: 635px;
   font-size: 62px;
   line-height: 76px;
   font-weight: 500;
-  margin-top: 0; /* según brief */
+  margin-top: 128px;
   margin-bottom: 0;
 }
 
@@ -86,7 +84,6 @@
   align-items: center;
   justify-content: flex-end;
   box-sizing: border-box;
-  /* NO tocar este bloque según la plataforma */
 }
 
 .header__address {
