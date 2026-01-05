@@ -34,16 +34,9 @@
   padding: 0;
   display: flex;
   column-gap: 20px;
-  align-items: center;
 }
 
 .nav__link {
-  color: #000000;
-  text-decoration: none;
-  font-weight: bold;
-}
-
-.header__link {
   color: #000000;
   text-decoration: none;
   font-weight: bold;
@@ -158,6 +151,7 @@
 
 .card__footer {
   margin: 0;
+  margin-top: auto;
   font-size: 14px;
   line-height: 20px;
   color: #838383;
