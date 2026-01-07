@@ -102,7 +102,7 @@
 .staff__title {
   text-align: center;
   font-size: 44px;
-  font-weight: 400;
+  font-weight: 400px;
   line-height: 52px;
   margin: 0 0 24px;
   color: #ffffff;
@@ -164,95 +164,130 @@
 }
 
 .events {
+  padding: 100px 0 120px 80px;
+  display: flex;
+  align-items: start;
+  justify-content: space-between;
+  box-sizing: border-box;
   background-color: #f2f2f2;
-  padding: 100px 80px;
 }
 
 .events__content {
-  max-width: 520px;
+  flex-basis: 580px;
 }
 
 .events__heading {
-  margin: 0;
   font-size: 20px;
+  font-weight: 500;
   line-height: 30px;
+  margin: 0;
 }
 
 .events__title {
-  margin: 32px 0 0;
   font-size: 44px;
+  font-weight: 500;
   line-height: 52px;
-  font-weight: 400;
+  margin: 32px 0 0;
 }
 
 .events__info-section {
   margin-top: 32px;
 }
 
-.event-info {
-  display: flex;
-  gap: 40px;
-}
-
 .event-info__item {
   display: flex;
   align-items: center;
-  gap: 10px;
+  margin-bottom: 4px;
+  font-weight: 500;
 }
 
 .event-info__icon {
-  width: 20px;
-  height: 20px;
+  background-repeat: no-repeat;
+  background-position: center;
+  margin-right: 12px;
+  width: 24px;
+  height: 24px;
 }
 
 .event-info__text {
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 30px;
   margin: 0;
-  font-size: 16px;
-  line-height: 20px;
 }
 
 .events__description {
-  margin-top: 40px;
-  font-size: 16px;
-  line-height: 24px;
+  margin: 40px 0 60px;
 }
 
 .events__more {
-  display: inline-block;
-  margin-top: 24px;
   color: #2f80ed;
   text-decoration: none;
 }
 
 .events__cover {
+  flex-grow: 1;
+  flex-shrink: 0;
+  flex-basis: 780px;
+  max-width: 780px;
   position: relative;
-  margin-top: 80px;
 }
 
 .events__image {
-  width: 100%;
-  display: block;
+  max-width: 100%;
 }
 
 .person {
   position: absolute;
-  text-align: center;
-}
-
-.person__caption {
-  margin: 0 0 8px;
-  font-size: 14px;
-}
-
-.person__image {
-  display: block;
-}
-
-.person__image_size_l {
-  width: 159px;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  gap: 10px;
 }
 
 .person_name_feynman {
   top: -30px;
-  right: 79px;
+  left: 319px;
+}
+
+.person_name_burbidge {
+  top: 96px;
+  right: 125px;
+}
+
+.person_name_cannon {
+  bottom: 18px;
+  right: 216px;
+}
+
+.person_name_mitchell {
+  bottom: 82px;
+  left: 142px;
+}
+
+.person_name_tarter {
+  top: 79px;
+  left: 159px;
+}
+
+.person__image {
+  max-width: 100%;
+}
+
+.person__image_size_l {
+  width: 140px;
+}
+
+.person__image_size_m {
+  width: 100px;
+}
+
+.person__image_size_s {
+  width: 80px;
+}
+
+.person__caption {
+  text-align: center;
+  font-size: 14px;
+  margin: 0;
 }
