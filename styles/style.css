@@ -311,6 +311,9 @@
   list-style-type: none;
   padding: 0;
   margin: 100px 0 0;
+  display: flex;
+  justify-content: center;
+  gap: 40px;
 }
 
 .step__title {
@@ -330,28 +333,10 @@
   margin: 10px 0 0;
 }
 
-.footer {
-  box-sizing: border-box;
-}
-
 .footer__list {
   list-style-type: none;
   padding: 0;
   margin: 0;
-}
-
-.footer__column-link {
-  color: white;
-  text-decoration: none;
-}
-
-.membership__steps {
-  display: flex;
-  justify-content: center;
-  gap: 40px;
-  margin: 100px 0 0;
-  padding: 0;
-  list-style-type: none;
 }
 
 .step {
