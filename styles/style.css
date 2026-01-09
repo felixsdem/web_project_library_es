@@ -348,7 +348,7 @@
 }
 
 .footer {
-  background-color: #333333;
+  background-color: #1f1f1f;
   padding: 60px 80px;
   box-sizing: border-box;
   font-size: 16px;
@@ -405,7 +405,7 @@
 }
 
 .footer__logo {
-  width: 50px;
+  width: 58px;
   height: 80px;
 }
 
